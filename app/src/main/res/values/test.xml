@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#d9e1e5</item>
+
+    </style>
+    <style name="UserMainActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar" tools:ignore="ResourceCycle">
+        <item name="android:background">#428bca</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:textColor">#d9e1e5</item>
+
+
+
+    </style>
+
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+
+        <!-- 注意，该句指定此样式中的actionbar的样式 -->
+        <item name="android:actionBarStyle">@style/UserMainActionBarStyle</item>
+
+        <!-- 注意，该句指定此样式中的actionbar的高度 -->
+        <item name="android:actionBarSize">60dp</item>
+
+
+        <!-- 注意，该句指定此样式中的actionbar底部没有阴影和分界线高度 -->
+        <item name="android:windowContentOverlay">@null</item>
+
+
+    </style>
+
+    <style name="barktheme" parent="android:ThemeOverlay.Material.Dark" tools:targetApi="lollipop">
+
+    </style>
+
+    <style name="lighttheme" parent="android:Theme.Material.Light" tools:targetApi="lollipop">
+
+    </style>
+
+
+
+
+
+
+
+
+</resources>

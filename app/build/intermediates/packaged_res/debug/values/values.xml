@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="bludcolor">#185abd</color>
+    <string name="app_name">NotePad</string>
+    <string name="button_ok">OK</string>
+    <string name="error_message">Error loading note</string>
+    <string name="error_title">Error</string>
+    <string name="live_folder_name">Notes</string>
+    <string name="menu_add">New note</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_paste">Paste</string>
+    <string name="menu_revert">Revert changes</string>
+    <string name="menu_save">Save</string>
+    <string name="nothing_to_save">There is nothing to save</string>
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>
+    <string name="text_title">Title:</string>
+    <string name="title_create">New note</string>
+    <string name="title_edit">Edit: %1$s</string>
+    <string name="title_edit_title">Note title:</string>
+    <string name="title_notes_list">Notes</string>
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+
+        
+        <item name="android:actionBarStyle">@style/UserMainActionBarStyle</item>
+
+        
+        <item name="android:actionBarSize">60dp</item>
+
+
+        
+        <item name="android:windowContentOverlay">@null</item>
+
+
+    </style>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#d9e1e5</item>
+
+    </style>
+    <style name="UserMainActionBarStyle" ns1:ignore="ResourceCycle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#428bca</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:textColor">#d9e1e5</item>
+
+
+
+    </style>
+    <style name="barktheme" parent="android:ThemeOverlay.Material.Dark" ns1:targetApi="lollipop">
+
+    </style>
+    <style name="lighttheme" parent="android:Theme.Material.Light" ns1:targetApi="lollipop">
+
+    </style>
+</resources>
