@@ -1,10 +1,11 @@
 # midterm
 其中作业——notepad的功能扩展
 
-必选
-时间戳——
+必选 时间戳——
+
 增加修改时间时间戳显示
 1-1:使用LinearLayout替换原来的TextView（以便更好的扩展内容）并增加显示时间戳的TextView
+
 ![image](https://user-images.githubusercontent.com/38639268/202957431-3c821887-6a9b-4b3d-b5f4-6708f8c43a65.png)
 ![image](https://user-images.githubusercontent.com/38639268/202957551-d7b4c9c4-0a02-4a03-9487-62ebdd588789.png)
 
