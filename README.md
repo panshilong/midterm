@@ -22,6 +22,7 @@
 最后再使用一次SimpleCursorAdapter.ViewBinder viewBinder=new SimpleCursorAdapter.ViewBinder(){***}中的setViewValue方法
 把得到的时间戳格式化为"yyyy.MM.dd HH:mm:ss"的形式
 最终得到——
+
 ![时间戳](https://user-images.githubusercontent.com/38639268/202886399-d186ba68-1bd9-4ca9-a270-933f423f7394.jpg)
 
 搜索
